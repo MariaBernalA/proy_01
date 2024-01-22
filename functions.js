@@ -16,14 +16,14 @@ function multiply(a,b) {
 //Define la función dividir (divide)
 function divide(a,b) {
     if (b ==0) {
-        return "Error: no se puede dividir entre cero"
+        return "Error: no se puede dividir entre cero"//Si el numero dado para dividir es 0 me retorna este mensaje y se mostrara en la consola
     } else {
         return a / b;
     }
 
 }
 
-exports.add = add;
-exports.substract = substract;
-exports.multiply = multiply;
-exports.divide = divide;
+exports.add = add;//exporto la funcion add para que el archivo app la pueda utilizar 
+exports.substract = substract;//exporto la funcion substract para que el archivo app la pueda utilizar 
+exports.multiply = multiply;//exporto la funcion multiply para que el archivo app la pueda utilizar 
+exports.divide = divide;//exporto la funcion divide para que el archivo app la pueda utilizar 
